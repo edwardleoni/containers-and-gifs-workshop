@@ -1,0 +1,7 @@
+node_app:
+    container_name: workshop-con
+    image: workshop
+    ports: 
+        - "2000:3329"
+    volumes:
+        - .:/app
